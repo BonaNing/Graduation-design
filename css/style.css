@@ -1,55 +1,62 @@
 html{
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
 }
 body{
+	font-family: "Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,Verdana,"Microsoft Yahei",sans-serif;
+}
+#container{
 	width: 1349px;
+	margin:0 auto;
 }
 #header{
 	height: 135px;
-	width: 1349px;
+	width: 100%;
 }
 .top-bar-bg{
 	background-color: #F2F2F2;
-	width: 1349px;
+	width: 100%;
 	height: 35px;
 }
 .top-bar{
 	width: 1200px;
 	height: 35px;
 	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .top-left-bar{
-	/*display: inline-block;*/
+	display: flex;
+	align-items: center;
 	width: 142px;
-	height: 35px;
-	float: left;
-	margin-top: 8px;
+	height: 100%;
 }
 .top-left-bar a{
-	font-family: "Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,Verdana,"Microsoft Yahei",sans-serif;
-	color: #999999;
+	color: #999;
 	font-size: 0.8em;
 	text-decoration: none;
 	text-align: center;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 	padding-right: 5px;
 }
 .top-left-bar a:hover{
 	color: #F03726;
 }
 .top-right-bar{
-	width: 320px;
+	/*width: 320px;*/
 	height: 35px;
-	float: right;
 }
 .top-right-bar ul{
-	margin-top: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
 }
 .top-right-bar ul li{
-	display: inline-block;
-	font-family: "Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,Verdana,"Microsoft Yahei",sans-serif;
-	text-align: center;
-	vertical-align: middle;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 10px;
 }
 .top-right-bar ul li a{
 	text-decoration: none;
@@ -59,28 +66,77 @@ body{
 .top-right-bar ul li a:hover{
 	color: #F03726;
 }
-.top-right-bar ul li a img{
+.top-right-bar ul li img{
 	vertical-align: middle;
 	text-align: center;
-	padding-right: 5px;
+	padding-right: 3px;
 }
 .headerSearch{
 	width: 960px;
 	height: 90px;
 	margin:0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .webImage{
 	width: 100%
 	height: 100%;
-	float: left;
 }
 .searchBar{
 	width: 660px;
-	height: 52px;
-	float: right;
-	margin:0 auto;
-	vertical-align: middle;
-	margin-top: 19px;
+	height: 46px;
+	border:2px solid #F03726;
+}
+.searchBar input{
+	height: 100%;
+	display: inline-block;
+	padding: 0;
+	padding-left: 10px;
+	border-radius: 0;
+	border: 0;
+}
+.searchBar span{
+	background-color: #F03726;
+}
+.searchBar span button{
+	width: 80px;
+	border-radius: 0;
+	border: 0;
+	color: #fff;
+	background-color: transparent;
+}
+.searchBar span button:hover{
+	color: #fff;
+	background-color: transparent;
+}
+.searchBar span button:focus{
+	background-color: transparent !important;
+	border: none !important;
+	border-color: transparent !important;
+}
+.searchBar span:focus,
+.searchBar span:active:focus,
+.searchBar span.active:focus,
+.searchBar span.focus,
+.searchBar span:active.focus,
+.searchBar span.active.focus {
+    outline: none;          
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    color: #fff;          
+}
+.searchBar span button:active{
+	background-color: transparent !important;
+	border: 0 !important;
+	border-color: transparent !important;
+	box-shadow: none;
 }
 #bigInput{
 	width: 515px;
