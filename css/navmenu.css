@@ -8,16 +8,17 @@ body{
 	width: 190px;
 	border: 2px solid #e4393c;
 }
-.toptitle{
+/*.toptitle{
 	height: 45px;
 	line-height: 45px;
-	text-align: left; /*文字的对齐方式，左对齐*/
+	text-align: left;
 	font-size: 1.2em;
 	font-weight: bold;
 	color: #fff;
 	background-color: #e4393c;
 	padding-left: 20px;
-}
+}*/
+
 .topmenu li{
 	height: 30px;
 	line-height: 30px;
@@ -52,6 +53,7 @@ body{
 	font-weight: bold;
 	color: #e4393c;
 }
+
 .submenu{
 	display: none;
 	width:715px;
@@ -90,6 +92,7 @@ body{
 	position: relative;
 
 }
+
 .leftclass dl{
 	display: block;
 	border-bottom: 1px solid #EEE;
@@ -141,4 +144,30 @@ body{
 .rightclass dl dd a:hover{
 	color: #737373;
 	font-weight: normal;
+}
+
+
+.topmenu .toptitle{
+	height: 45px;
+	line-height: 45px;
+	text-align: left; /*文字的对齐方式，左对齐*/
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	background-color: #e4393c;
+	padding-left: 20px;
+	background-image: none;
+}
+.topmenu .toptitle:hover{
+	height: 45px;
+	line-height: 45px;
+	text-align: left; /*文字的对齐方式，左对齐*/
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	background-color: #e4393c;
+	padding-left: 20px;
+	border: none;
+	background-image: none;
+	box-shadow: none;
 }
