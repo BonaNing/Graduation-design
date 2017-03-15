@@ -3,6 +3,8 @@ html{
 }
 body{
 	font-family: "Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,Verdana,"Microsoft Yahei",sans-serif;
+	behavior:url(csshover.htc);
+	font-size: 1em;
 }
 #container{
 	width: 1349px;
@@ -22,11 +24,13 @@ body{
 	height: 35px;
 	margin:0 auto;
 	display: flex;
+	display: -webkit-flex; /* Safari */
 	justify-content: space-between;
 	align-items: center;
 }
 .top-left-bar{
 	display: flex;
+	display: -webkit-flex; /* Safari */
 	align-items: center;
 	width: 142px;
 	height: 100%;
@@ -48,6 +52,7 @@ body{
 }
 .top-right-bar ul{
 	display: flex;
+	display: -webkit-flex; /* Safari */
 	justify-content: space-between;
 	align-items: center;
 	height: 100%;
@@ -76,6 +81,7 @@ body{
 	height: 90px;
 	margin:0 auto;
 	display: flex;
+	display: -webkit-flex; /* Safari */
 	align-items: center;
 	justify-content: space-between;
 }
@@ -138,24 +144,30 @@ body{
 	border-color: transparent !important;
 	box-shadow: none;
 }
-#bigInput{
-	width: 515px;
-	height: 46px;
-	display: inline-block;
-	border:2px solid #F03726;
-	float: left;
-	color: #999999;
-	padding-left: 5px;
-	font-family: "Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,Verdana,"Microsoft Yahei",sans-serif;
+#content{
+	width: 1349;
+	height: 415px;
+	margin-top: 10px;
 }
-#smallInput{
-	width: 130px;
-	height: 52px;
-	display: inline-block;
-	border:2px solid #F03726;
-	float: right;
-	background-color: #F03726;
-	color: #FFFFFF;
-	font-size: 1.2em;
-	font-family: "Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,Verdana,"Microsoft Yahei",sans-serif;
+.navmenu{
+	width: 1200px;
+	height: 100%;
+	margin:0 auto;
+}
+.navindex{
+	height: 45px;
+	width: 800px;
+}
+.navindex ul li a{
+    font-weight: 700;
+    color: #555;
+}
+.navborder{
+	border-bottom: none;
+}
+.navindex ul li a:hover{
+	color: #e4393c;
+}
+.navborder>li>a{
+	border-radius: 5px;
 }
