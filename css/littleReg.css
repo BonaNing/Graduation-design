@@ -1,0 +1,60 @@
+/*导航栏下轮播图中的登录注册模块*/
+.littleReg{
+	width: 220px;
+	height: 400px;
+	background-color: pink;
+	margin-top: 20px;
+}
+.headline{
+	margin-top: 10px;
+	/*padding-left: 20px;*/
+	width:200px;
+	/*border-bottom: 1px solid #ccc;*/
+}
+.headline .topnews{
+	color: #e4393c;
+	font-weight: 700;
+}
+.headline ul{
+	border-bottom: 1px solid #ccc;
+}
+.headline ul li{
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+}
+.headline ul li a{
+	font-size: 0.8em;
+	color: #000;
+}
+.headline ul li a:hover{
+	text-decoration: none;
+}
+.reg{
+	display:inline-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.reg .regImg{
+
+}
+.regText p{
+	color: #000;
+}
+.regText p a{
+	color: #000;
+}
+.regText p a:hover{
+	text-decoration: none;
+}
+.sales{
+	
+}
+.sales ul li a{
+	color: #000;
+	font-size: 0.8em;
+}
+.sales ul li a:hover{
+	text-decoration: none;
+}
+
