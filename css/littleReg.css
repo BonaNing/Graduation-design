@@ -7,9 +7,7 @@
 }
 .headline{
 	margin-top: 10px;
-	/*padding-left: 20px;*/
 	width:200px;
-	/*border-bottom: 1px solid #ccc;*/
 }
 .headline .topnews{
 	color: #e4393c;
@@ -17,6 +15,7 @@
 }
 .headline ul{
 	border-bottom: 1px solid #ccc;
+	/*text-align: center;*/
 }
 .headline ul li{
 	padding-left: 20px;
@@ -32,29 +31,70 @@
 }
 .reg{
 	display:inline-flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
+	flex-wrap: wrap;
+	margin-left: 15px;
+	margin-top: 10px;
 }
 .reg .regImg{
-
+	width: 50px;
+	height: 50px;
+	/*margin-right: 1em;*/
+}
+.regImg img{
+	height: 100%;
+	width: 100%;
+}
+.regText{
+	padding-left: 10px;
 }
 .regText p{
 	color: #000;
+	font-size: 0.8em;
+	padding-bottom: 0.3em;
 }
-.regText p a{
-	color: #000;
+.regText a{
+	color: #e4393c;
+	font-size: 0.6em;
 }
-.regText p a:hover{
+.regText a:hover{
 	text-decoration: none;
 }
+.regButton{
+	padding-top: 5px;
+}
+.regButton input{
+	width: 95px;
+	height: 25px;
+	background-color:#F37B1D;
+	font-size: 0.6em;
+	color: #fff;
+	border:none;
+}
 .sales{
-	
+	margin-top: 15px;
+	height: 90px;
+	margin-left: 20px;
+
 }
 .sales ul li a{
 	color: #000;
 	font-size: 0.8em;
+	height: 20px;
+	vertical-align: 20px;
 }
 .sales ul li a:hover{
 	text-decoration: none;
 }
+.img-sales{
+	height: 90px;
+	width: 220px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.img-sales img{
+	height: 100%;
+	width: 100%;
 
+}
