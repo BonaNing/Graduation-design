@@ -144,7 +144,7 @@ body{
 }
 #content{
 	width: 1349;
-	height: 415px;
+	height: 500px;
 	margin-top: 10px;
 	display: flex;
 	flex-direction: flex-start;
@@ -153,7 +153,9 @@ body{
 	display: flex;
 	flex-direction: flex-start;
 	margin: 0 auto;
-	height: 500px;
+	height: 100%;
+	width: 1200px;
+
 }
 .navmenu{
 	width: 190px;

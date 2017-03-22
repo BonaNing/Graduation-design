@@ -1,3 +1,122 @@
 .mainContent{
+	width: 1349px;
+}
+.main-content{
 	width: 1200px;
+	margin:0 auto;
+}
+.topAdv{
+	width: 100%;
+	height: 145px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.leftBg{
+	width: 300px;
+	height: 100%;
+	background-color: yellow;
+}
+/*.advUl ul li:first-child{
+	font-weight: 700;
+}*/
+.reallyFish{
+	font-weight: 700;
+	font-size: 0.8em;
+}
+.newYear{
+	font-size: 0.9em;
+	padding-top: 10px;
+}
+.advImg a img{
+	width: 120px;
+	height: 120px;
+}
+.advTop{
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+	height: 100%;
+}
+.advImg{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.advImg span{
+	height: 90px;
+	border: 1px solid #E8E4DE;
+	margin-left: 15px;
+}
+.advImg a:hover{
+	animation: myanimation 5s;
+	-moz-animation: myanimation 5s; /* Firefox */
+	-webkit-animation: myanimation 5s; /* Safari and Chrome */
+	-o-animation: myanimation 5s; /* Opera */
+}
+@keyframes myanimation
+{
+	0% { left:0; top:0; }
+	100% { left:20px; top:0; }
+}
+.adv-top{
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.activity{
+	width: 1200px;
+	height: 380px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.activityText{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 2px solid #000;
+}
+.activityText-left{
+	display: inline-flex;
+	align-items: center;
+}
+.activityText-left h2{
+	font-size: 1.2em;
+	font-weight: 700;
+}
+.activityText-left p{
+	margin-left: 15px;
+	color: #999;
+	font-size: 0.8em;
+	margin-top: 5px;
+	font-weight: 700;
+}
+.activityText-right{
+	height: 40px;
+	display: inline-flex;
+	align-items: center;
+	margin-top: 5px;
+}
+.activityText-right a{
+	font-size: 0.8em;
+	color: #555;
+	font-weight: 700;
+}
+.activityText-right a:hover{
+	text-decoration: none;
+}
+.activityText-right a img{
+	vertical-align: middle;
+	margin-left: 3px;
+}
+.activityImg{
+	width: 100%;
+	height: 335px;
+	margin-top: 10px;
+}
+.activityImg a img{
+	width: 296px;
+	height: 314px;
+	margin-right: 1px;
 }
