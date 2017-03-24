@@ -5,6 +5,7 @@
 	width: 1200px;
 	margin:0 auto;
 }
+/*主要内容中顶部的优惠活动（4张活动图片）*/
 .topAdv{
 	width: 100%;
 	height: 145px;
@@ -17,9 +18,6 @@
 	height: 100%;
 	background-color: yellow;
 }
-/*.advUl ul li:first-child{
-	font-weight: 700;
-}*/
 .reallyFish{
 	font-weight: 700;
 	font-size: 0.8em;
@@ -103,7 +101,13 @@
 	color: #555;
 	font-weight: 700;
 }
+.activityText-right a span{
+	margin-right: 30px;
+}
 .activityText-right a:hover{
+	text-decoration: none;
+}
+.activityText-right a span:hover{
 	text-decoration: none;
 }
 .activityText-right a img{
@@ -120,3 +124,142 @@
 	height: 314px;
 	margin-right: 1px;
 }
+/*主要内容中顶部的优惠活动（4张活动图片）*/
+
+/*主要内容部分中间部分图片广告（5个大图片模块）*/
+.subActivity{
+	width: 1200px;
+	height: 530px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.subActivityImg{
+	width: 100%;
+	height: 480px;
+	margin-top: 10px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*.subActivityImg a img{
+	width: 296px;
+	height: 314px;
+	margin-right: 1px;
+}*/
+.imgDiv{
+	width: 240px;
+	height: 480px;
+	background-color: #6BDEA7;
+}
+.walnut{
+	width: 100%;
+	height: 150px;
+}
+.milk{
+	width: 55px;
+	height: 55px;
+	margin-left: 15px;
+	margin-top: 10px;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #FFF;
+	border: 1px solid red;
+	border-radius: 27.5px;
+}
+.milk p{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 0.8em;
+}
+.walnutText{
+	width: 200px;
+	height: 50px;
+	margin:0 auto;
+	margin-left: 90px;
+}
+.walnutText a{
+	display: block;
+	font-size: 0.8em;
+	color: #666;
+	margin-top: 10px;
+}
+.walnutText a span{
+	color: #FFF;
+	font-weight: 700;
+}
+.walnutText a:hover{
+	text-decoration: none;
+}
+.walnutImg{
+	width: 210px;
+	height: 210px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.walnutImg a img{
+	width: 100%;
+	height: 100%;
+}
+.imgDiv2{
+	width: 240px;
+	height: 480px;
+}
+.imgDiv2-fruit{
+	width: 240px;
+	height: 240px;
+}
+.fruit1{
+	width: 180px;
+	height: 180px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.fruit1 a img{
+	width: 100%;
+	height: 100%;
+}
+.fruit1Text{
+	width: 240px;
+	height: 40px;
+	margin:0 auto;
+	margin-top: 10px;
+	display: inline-flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #EEE;
+}
+.fruit1Text p,.fruit2Text p{
+	margin-top: 5px;
+	font-size: 0.8em;
+	font-weight: 700;
+	color: #666;
+}
+.fruit1Text p span,.fruit2Text p span{
+	color: #000;
+	font-size: 1em;
+}
+.imgDiv3{
+	height: 100%;
+	width: 240px;
+}
+.fruit2Text{
+	width: 240px;
+	height: 49px;
+	margin:0 auto;
+	margin-top: 120px;
+	display: inline-flex;
+	justify-content: space-around;
+}
+.fruit2{
+	width: 194px;
+	height: 194px;
+	margin:0 auto;
+	margin-top: 80px;
+}
+.fruit2 a img{
+	width: 100%;
+	height: 100%;
+}
+
+/*主要内容部分中间部分图片广告（5个大图片模块）*/
