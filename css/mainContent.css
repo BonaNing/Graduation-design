@@ -118,11 +118,17 @@
 	width: 100%;
 	height: 335px;
 	margin-top: 10px;
+	display: flex;
 }
-.activityImg a img{
-	width: 296px;
+.activityImg div{
+	/*width: 296px;*/
 	height: 314px;
 	margin-right: 1px;
+	flex:1;
+}
+.activityImg div a img{
+	height: 100%;
+	width: 100%;
 }
 /*主要内容中顶部的优惠活动（4张活动图片）*/
 
@@ -161,7 +167,7 @@
 	margin-left: 15px;
 	margin-top: 10px;
 	display: inline-flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	background-color: #FFF;
