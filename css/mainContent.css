@@ -5,7 +5,7 @@
 	width: 1200px;
 	margin:0 auto;
 }
-/*主要内容中顶部的优惠活动（4张活动图片）*/
+/*主要内容中顶部的优惠活动（4张活动图片）Start!*/
 .topAdv{
 	width: 100%;
 	height: 145px;
@@ -130,9 +130,9 @@
 	height: 100%;
 	width: 100%;
 }
-/*主要内容中顶部的优惠活动（4张活动图片）*/
+/*主要内容中顶部的优惠活动（4张活动图片）END!*/
 
-/*主要内容部分中间部分图片广告（5个大图片模块）*/
+/*第一个主要内容部分中间部分图片广告（5个大图片模块）Start!*/
 .subActivity{
 	width: 1200px;
 	height: 530px;
@@ -146,20 +146,17 @@
 	display: inline-flex;
 	align-items: center;
 	justify-content: space-between;
+	flex:1;
 }
-/*.subActivityImg a img{
-	width: 296px;
-	height: 314px;
-	margin-right: 1px;
-}*/
 .imgDiv{
-	width: 240px;
+	/*width: 240px;*/
 	height: 480px;
 	background-color: #6BDEA7;
 }
 .walnut{
 	width: 100%;
 	height: 150px;
+	padding-top: 15px;
 }
 .milk{
 	width: 55px;
@@ -183,7 +180,8 @@
 	width: 200px;
 	height: 50px;
 	margin:0 auto;
-	margin-left: 90px;
+	padding-left: 60px;
+	padding-top: 10px;
 }
 .walnutText a{
 	display: block;
@@ -209,18 +207,21 @@
 	height: 100%;
 }
 .imgDiv2{
-	width: 240px;
+	/*width: 240px;*/
 	height: 480px;
 }
 .imgDiv2-fruit{
 	width: 240px;
 	height: 240px;
 }
+.imgDiv2-fruit:first-child{
+	border-bottom: 1px solid #EEE;
+}
 .fruit1{
 	width: 180px;
 	height: 180px;
 	margin:0 auto;
-	margin-top: 10px;
+	padding-top: 10px;
 }
 .fruit1 a img{
 	width: 100%;
@@ -230,13 +231,12 @@
 	width: 240px;
 	height: 40px;
 	margin:0 auto;
-	margin-top: 10px;
+	padding-top: 10px;
 	display: inline-flex;
 	justify-content: space-around;
-	border-bottom: 1px solid #EEE;
 }
 .fruit1Text p,.fruit2Text p{
-	margin-top: 5px;
+	padding-top: 5px;
 	font-size: 0.8em;
 	font-weight: 700;
 	color: #666;
@@ -247,7 +247,11 @@
 }
 .imgDiv3{
 	height: 100%;
-	width: 240px;
+	/*width: 240px;*/
+	border-left: 1px solid #EEE;
+}
+.first{
+	border-right: 1px solid #EEE;
 }
 .fruit2Text{
 	width: 240px;
@@ -267,5 +271,21 @@
 	width: 100%;
 	height: 100%;
 }
+/* 第一个主要内容部分中间部分图片广告（5个大图片模块）END! */
 
-/*主要内容部分中间部分图片广告（5个大图片模块）*/
+
+/* 第二、三、四、五个主要内容部分中间部分图片广告（5个大图片模块）Start! */
+.seconeNut{
+	background-color: #FF9229;
+}
+.thirdNut{
+	background-color: #8ED515;
+}
+.fourthNut{
+	background-color: #FFF001;
+}
+.fifthNut{
+	background-color: #FE7A65;
+}
+
+/* 第二、三、四、五个主要内容部分中间部分图片广告（5个大图片模块）END! */
